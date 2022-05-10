@@ -38,7 +38,7 @@ int main(int argc, char **argv) {
         return 1;
     }
 
-    cout << "Welcome to Comment Maker v1.0" << endl;
+    cout << "Welcome to Comment Maker v1.0. Make sure to put @ before your functions." << endl;
     cout << "Would you like to include Description: in the function headers for descriptions that need to be manually added by you?" << endl;
     cout << "Hint: If you're lazy or in a rush press 0" << endl;
     bool alwaysIncludeDescription = promptUserInt("Input: (0-no or 1-yes)", 0, 1);
