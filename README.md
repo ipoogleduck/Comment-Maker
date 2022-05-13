@@ -21,9 +21,6 @@ Would become:
 }
 ```
 
->Note: Only works on actual functions, doesn't support function prototypes
->
-
 3. **Compile this .cpp file with g++ or whatever you use.**
 
 Ex: ```g++ commentMaker.cpp -o commentMaker```
