@@ -81,6 +81,18 @@ int main(int argc, char **argv) {
             string preConditions = "";
             
             int index = 0;
+
+            //Get rid of virtual
+            while (functionLine[index] != ' ' && functionLine[index] != ':') {
+                returnType += functionLine[index];
+                index++;
+            }
+            index++;
+            if (returnType != "virtual") {
+                index = 0;
+            }
+            returnType = "";
+
             while (functionLine[index] != ' ' && functionLine[index] != ':') {
                 returnType += functionLine[index];
                 index++;
@@ -96,7 +108,7 @@ int main(int argc, char **argv) {
                     constructor = true;
                 }
                 index++;
-            }  else {
+            } else {
                 int index2 = index;
                 string tempString = "";
                 while (functionLine[index2] != '(' && functionLine[index2] != ':') {
