@@ -23,7 +23,7 @@ Would become:
 
 3. **Compile this .cpp file with g++ or whatever you use.**
 
-Ex: ```g++ commentMaker.cpp -o commentMaker```
+Ex: ```g++ commentMaker.cpp -std=c++11 -o commentMaker```
 
 4. **Run commentMaker with the name(s) of your c++ files.**
 
