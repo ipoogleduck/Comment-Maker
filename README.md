@@ -21,7 +21,7 @@ Would become:
 }
 ```
 
-3. **Compile this .cpp file with g++ or whatever you use.**
+3. **Compile this .cpp file with g++.**
 
 Ex: ```g++ commentMaker.cpp -std=c++11 -o commentMaker```
 
